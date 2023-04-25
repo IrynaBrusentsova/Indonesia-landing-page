@@ -33,6 +33,7 @@ body {
     font-family: $font1;
     color: $colorText;
     margin: 0; 
+    scroll-behavior: smooth;
 }
 
 // .outline {
@@ -131,8 +132,6 @@ header {
         }
 
     }
-
-  
 
 }
 
@@ -840,7 +839,7 @@ footer {
         grid-gap: 10px;
         align-items: center;
         justify-content: center;
-        padding: 0 50px;
+        padding: 0 15px;
     }
 
     .footer-grid-logo {
@@ -894,15 +893,29 @@ footer {
         grid-template-rows: auto;
         align-items: center;
         list-style: none;
-
+        
+    
         i {
             color: #FFFFFF;
+             &:hover{
+            transform: scale(1.2);
+        }
+            &:hover,
+            :focus {
+                color: $colorMainRed;
+                transition: 1s;
+            }
         }
     }
 
     ul {
         margin: 0;
         padding: 0;
+        transition: 1s;
+        li:hover{
+            transform: scale(2.0);
+            transition: 1s;
+        }
     }
 }
 
@@ -911,10 +924,10 @@ footer {
 /*TABLET*/
 @media (max-width: 991px) {
     header {
-        align-items: center;
-        opacity: 1;
-       
+               
         .header-grid-wrapper {
+            align-items: center;
+            opacity: 1;
             grid-template-columns: 1fr;
             text-align: center;
             grid-row: 40px;
@@ -925,6 +938,7 @@ footer {
             }
 
             .header-grid-menu {  
+                
                
                 .header-grid-nav-menu {
                     grid-template-columns: 1fr; 
@@ -954,13 +968,12 @@ footer {
 
           .active {
             .header-grid-nav-menu {
-               display: block;
-            }  
-        }
-
-        }
-
+               display: block;             
+            }   
+          
+        } 
         
+        }
 
     }
 
@@ -983,8 +996,9 @@ footer {
         }
 
         .footer-grid-icon {
-            grid-template-columns: 1fr;
-            grid-row-gap: 30px;
+            grid-template-columns: 30%;
+            grid-row-gap: 30px;  
+            justify-content: center;     
         }
     }
 

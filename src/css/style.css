@@ -29,6 +29,7 @@ body {
   font-family: DM Sans, sans-serif;
   color: #FFFFFF;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 .wpapper {
@@ -569,7 +570,7 @@ footer .footer-grid-wrapper {
   grid-gap: 10px;
   align-items: center;
   justify-content: center;
-  padding: 0 50px;
+  padding: 0 15px;
 }
 footer .footer-grid-logo {
   display: grid;
@@ -620,18 +621,29 @@ footer .footer-grid-icon-menu {
 footer .footer-grid-icon-menu i {
   color: #FFFFFF;
 }
+footer .footer-grid-icon-menu i:hover {
+  transform: scale(1.2);
+}
+footer .footer-grid-icon-menu i:hover,
+footer .footer-grid-icon-menu i :focus {
+  color: #DD2242;
+  transition: 1s;
+}
 footer ul {
   margin: 0;
   padding: 0;
+  transition: 1s;
+}
+footer ul li:hover {
+  transform: scale(2);
+  transition: 1s;
 }
 
 /*TABLET*/
 @media (max-width: 991px) {
-  header {
+  header .header-grid-wrapper {
     align-items: center;
     opacity: 1;
-  }
-  header .header-grid-wrapper {
     grid-template-columns: 1fr;
     text-align: center;
     grid-row: 40px;
@@ -682,8 +694,9 @@ footer ul {
     margin-bottom: 30px;
   }
   footer .footer-grid-icon {
-    grid-template-columns: 1fr;
+    grid-template-columns: 30%;
     grid-row-gap: 30px;
+    justify-content: center;
   }
   .getting {
     min-height: 2100px;
