@@ -863,6 +863,7 @@ footer {
             grid-gap: 50px;
             text-align:center;
             list-style: none;
+            padding: 0;
             
             a {
                 text-decoration: none;
@@ -893,30 +894,35 @@ footer {
         grid-template-rows: auto;
         align-items: center;
         list-style: none;
-        
-    
-        i {
-            color: #FFFFFF;
-             &:hover{
-            transform: scale(1.2);
-        }
-            &:hover,
-            :focus {
-                color: $colorMainRed;
-                transition: 1s;
-            }
-        }
-    }
-
-    ul {
         margin: 0;
         padding: 0;
         transition: 1s;
-        li:hover{
+        i {
+            color: #FFFFFF;
+        }
+       
+
+        li a i:hover{
             transform: scale(2.0);
             transition: 1s;
+            color: $colorMainRed;
+            transition: 1s;
         }
+           
     }
+
+    // ul {
+       
+    //     margin: 0;
+    //     padding: 0;
+    //     transition: 1s;
+    //     li a i:hover{
+    //         transform: scale(2.0);
+    //         transition: 1s;
+    //         color: $colorMainRed;
+    //         transition: 1s;
+    //     }
+    // }
 }
 
 
@@ -924,12 +930,12 @@ footer {
 /*TABLET*/
 @media (max-width: 991px) {
     header {
-               
+
         .header-grid-wrapper {
             align-items: center;
             opacity: 1;
             grid-template-columns: 1fr;
-            text-align: center;
+            // text-align: center;
             grid-row: 40px;
            
             .header-grid-logo{
@@ -957,18 +963,21 @@ footer {
                 width: 32px;
                 height: 32px;
                 margin: 30px auto;
-                       
+                
+                                       
                     span {
                         width: 100%;
                         height: 3px;
                         background-color: #FFFFFF;
                         position: relative;
+                           
                     }
              }
 
           .active {
             .header-grid-nav-menu {
-               display: block;             
+               display: block; 
+                                          
             }   
           
         } 
@@ -996,7 +1005,7 @@ footer {
         }
 
         .footer-grid-icon {
-            grid-template-columns: 30%;
+            grid-template-columns: 40%;
             grid-row-gap: 30px;  
             justify-content: center;     
         }
