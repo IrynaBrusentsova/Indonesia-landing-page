@@ -599,7 +599,6 @@ header {
             @extend%bgstyle;
             height: 530px;
             width: 100%;
-
             border-radius: 10px;
         }
 
@@ -616,7 +615,6 @@ header {
             @extend%bgstyle;
             height: 210px;
             width: 100%;
-
             border-radius: 10px;
         }
 
@@ -626,7 +624,6 @@ header {
             @extend%bgstyle;
             height: 530px;
             width: 100%;
-
             border-radius: 10px;
         }
 
@@ -834,7 +831,7 @@ footer {
 
     .footer-grid-wrapper {
         display: grid;
-        grid-template-columns: 20% 60% 20%;
+        grid-template-columns: 20% 50% 30%;
         grid-template-rows: auto;
         grid-gap: 10px;
         align-items: center;
@@ -850,7 +847,7 @@ footer {
 
     .footer-grid-menu {
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
         grid-gap: 10px;
         align-items: center;
@@ -859,6 +856,7 @@ footer {
         .footer-grid-nav-menu{
             display: grid;
             grid-template-columns: repeat(4, 1fr);
+           
             grid-template-rows: auto;
             grid-gap: 50px;
             text-align:center;
