@@ -928,7 +928,7 @@ footer {
 /*TABLET*/
 @media (max-width: 991px) {
     header {
-
+       
         .header-grid-wrapper {
             align-items: center;
             opacity: 1;
@@ -942,8 +942,6 @@ footer {
             }
 
             .header-grid-menu {  
-                
-               
                 .header-grid-nav-menu {
                     grid-template-columns: 1fr; 
                     grid-row-gap: 40px;
@@ -974,10 +972,8 @@ footer {
 
           .active {
             .header-grid-nav-menu {
-               display: block; 
-                                          
-            }   
-          
+               display: block;                                
+            }      
         } 
         
         }
@@ -1015,6 +1011,9 @@ footer {
 }
 
 @media (max-width: 768px) {
+    body.lock{
+        overflow: hidden;
+    }
 
    
     .banner {
@@ -1189,6 +1188,7 @@ footer {
 
 /*MOBILE*/
 @media (max-width: 575px) {
+
     .banner {
         min-height: 1280px;
 

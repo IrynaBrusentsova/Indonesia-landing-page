@@ -695,6 +695,9 @@ footer .footer-grid-icon-menu li a i:hover {
   }
 }
 @media (max-width: 768px) {
+  body.lock {
+    overflow: hidden;
+  }
   .banner h1 {
     font-size: 58px;
     line-height: 63px;
