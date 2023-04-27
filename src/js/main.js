@@ -1,3 +1,4 @@
+'use strict'
 // find humburger
 const humburger = document.querySelector('.header-humburger');
 console.log (humburger);
