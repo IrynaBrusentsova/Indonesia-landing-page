@@ -967,17 +967,17 @@ footer {
                         background-color: #FFFFFF;
                         position: relative;
                            
-                    }
-             }
+                    }        
+           }
 
           .active {
             .header-grid-nav-menu {
                display: block;                                
-            }      
-        } 
+            }  
+            
+         } 
         
         }
-
     }
 
     footer {
@@ -1208,7 +1208,6 @@ footer {
         .numbers-wrapper {
             min-height: 1000px;
         }
-
         .numbers-wrapper .numbers-description {
             h2 {
                 font-size: 35px;
@@ -1222,9 +1221,11 @@ footer {
             font-size: 35px;
         }
     }
-
     .getting {
         min-height: 2400px;
     }
 
 }
+
+
+
