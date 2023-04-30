@@ -808,16 +808,31 @@ footer .footer-grid-icon-menu li a i:hover {
 /*MOBILE*/
 @media (max-width: 575px) {
   .banner {
-    min-height: 1280px;
+    max-height: 1280px;
   }
   .banner h1 {
     font-size: 45px;
     text-align: center;
     margin-bottom: 50px;
   }
+  .banner .title-grid h3 {
+    margin: 0;
+  }
+  .banner .title-grid p {
+    margin: 0 0 15px 0;
+  }
   .button {
     min-height: 52px;
     min-width: 171px;
+  }
+  .article .article-grid {
+    padding: 30px 15px;
+  }
+  .article .article-grid p {
+    margin: 20px 0;
+  }
+  .explore {
+    max-height: 1500px;
   }
   .explore .explore-description {
     padding-top: 0;
@@ -835,10 +850,10 @@ footer .footer-grid-icon-menu li a i:hover {
   .explore .numbers-wrapper .numbers-description h2 {
     font-size: 35px;
   }
-  .explore .numbers-grid {
+  .explore .numbers-wrapper .numbers-description .numbers-grid {
     margin-top: 0;
   }
-  .explore .numbers-grid p {
+  .explore .numbers-wrapper .numbers-description .numbers-grid p {
     margin: 20px 0;
   }
   .explore .grid-container-carousel {
@@ -850,6 +865,9 @@ footer .footer-grid-icon-menu li a i:hover {
     min-height: 622px;
   }
   .map .map-description p {
+    margin: 20px 0;
+  }
+  .map .map-description .button {
     margin: 20px 0;
   }
   .video .video-description {
@@ -871,7 +889,7 @@ footer .footer-grid-icon-menu li a i:hover {
     margin: 20px 0;
   }
   .getting {
-    min-height: 2400px;
+    max-height: 2400px;
   }
   .getting .getting-description p {
     margin: 20px 0;
