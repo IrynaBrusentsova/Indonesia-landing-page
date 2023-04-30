@@ -819,16 +819,67 @@ footer .footer-grid-icon-menu li a i:hover {
     min-height: 52px;
     min-width: 171px;
   }
+  .explore .explore-description {
+    padding-top: 0;
+  }
+  .explore .explore-description p {
+    margin: 0;
+  }
   .explore .numbers-wrapper {
     min-height: 1000px;
+    padding: 0 15px;
+  }
+  .explore .numbers-description {
+    padding: 0;
   }
   .explore .numbers-wrapper .numbers-description h2 {
     font-size: 35px;
   }
+  .explore .numbers-grid {
+    margin-top: 0;
+  }
+  .explore .numbers-grid p {
+    margin: 20px 0;
+  }
+  .explore .grid-container-carousel {
+    padding: 30px 0;
+    margin: 0;
+  }
+  .map {
+    padding: 0 15px;
+    min-height: 622px;
+  }
+  .map .map-description p {
+    margin: 20px 0;
+  }
   .video .video-description {
+    padding: 50px 15px;
+  }
+  .video .video-description p {
     font-size: 35px;
+    margin: 0;
+  }
+  .video .video-grid {
+    padding: 30px 15px;
+    margin-bottom: 0;
+  }
+  .gallery {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .gallery .gallery-description p {
+    margin: 20px 0;
   }
   .getting {
     min-height: 2400px;
+  }
+  .getting .getting-description p {
+    margin: 20px 0;
+  }
+  .getting .getting-main {
+    padding: 0;
+  }
+  .getting .getting-main ol li {
+    margin-bottom: 0;
   }
 }/*# sourceMappingURL=style.css.map */

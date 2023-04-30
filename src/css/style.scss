@@ -969,7 +969,6 @@ footer {
                            
                     }        
            }
-
           .active {
             .header-grid-nav-menu {
                display: block;                                
@@ -1014,8 +1013,7 @@ footer {
     body.lock{
         overflow: hidden;
     }
-
-   
+  
     .banner {
         h1 {
             font-size: 58px;
@@ -1185,7 +1183,6 @@ footer {
 
 }
 
-
 /*MOBILE*/
 @media (max-width: 575px) {
 
@@ -1205,24 +1202,89 @@ footer {
     }
 
     .explore {
+        
+        .explore-description{
+            padding-top:0;
+            p{
+                margin: 0;
+            }
+    }
         .numbers-wrapper {
             min-height: 1000px;
+            padding: 0 15px;
         }
+        .numbers-description {
+            padding: 0;
+        }
+
         .numbers-wrapper .numbers-description {
             h2 {
                 font-size: 35px;
             }
         }
 
+        .numbers-grid{
+            margin-top: 0;
+            p{
+                margin: 20px 0;
+            }
+        }
+        .grid-container-carousel{
+            padding: 30px 0;
+            margin:  0;
+        }
+
+    }
+
+    .map{
+        padding: 0 15px;
+        min-height: 622px;
+        .map-description{
+            p{
+                margin:20px 0;
+            }
+        }
     }
 
     .video {
-        .video-description {
+        .video-description {       
+           padding: 50px 15px;
+           p{
             font-size: 35px;
+            margin: 0;
+           }
+        }
+        .video-grid{
+            padding: 30px 15px;
+            margin-bottom: 0;
+        }
+
+    }
+    .gallery{
+        padding-left: 15px;
+        padding-right: 15px;
+        .gallery-description{
+            p{
+                margin:20px 0;
+            }
         }
     }
     .getting {
+        
         min-height: 2400px;
+        .getting-description{
+            p{
+                margin:20px 0;
+            }
+            
+        }
+        .getting-main{
+            padding:  0;
+            ol li{
+                margin-bottom: 0;
+             }
+        }
+
     }
 
 }
