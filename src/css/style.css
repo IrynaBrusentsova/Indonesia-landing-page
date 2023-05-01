@@ -652,7 +652,7 @@ footer .footer-grid-icon-menu li a i:hover {
     display: none;
   }
   header .header-grid-wrapper .header-grid-menu li {
-    margin: 40px 0;
+    margin: 30px 0;
   }
   header .header-grid-wrapper .header-humburger {
     display: grid;
@@ -889,7 +889,7 @@ footer .footer-grid-icon-menu li a i:hover {
     margin: 20px 0;
   }
   .getting {
-    max-height: 2400px;
+    min-height: 2400px;
   }
   .getting .getting-description p {
     margin: 20px 0;
