@@ -154,13 +154,12 @@ header {
         position: absolute;
         bottom: 0;
         left: 0;
-        right: 0;
-        padding: 50px;
+        right: 0;   
 
         .title-grid-item {
-            padding-left: 20px;
-            padding-right: 100px;
+            padding: 50px;
 
+               
             & p:first-child {
                 font-size: 16px;
                 font-weight: 900;
@@ -174,6 +173,7 @@ header {
                 @extend%fsizetext;
                 color: #939393;
             }
+         
 
             h3 {
                 font-size: 26px;
@@ -1023,13 +1023,16 @@ footer {
         .banner-description {
             & div:last-of-type {
                 text-align: center;
-                margin-bottom: 100px;
+                margin-bottom: 200px;
             }
         }
 
         .title-grid {
             grid-template-columns: 1fr;
             padding: 15px;
+            .title-grid-item{
+                padding:0 15px 15px 15px;
+            }
         }
     }
 

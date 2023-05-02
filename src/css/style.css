@@ -113,11 +113,9 @@ header .header-grid-wrapper .header-grid-menu .header-grid-nav-menu a :focus {
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 50px;
 }
 .banner .title-grid .title-grid-item {
-  padding-left: 20px;
-  padding-right: 100px;
+  padding: 50px;
 }
 .banner .title-grid .title-grid-item p:first-child {
   font-size: 16px;
@@ -704,11 +702,14 @@ footer .footer-grid-icon-menu li a i:hover {
   }
   .banner .banner-description div:last-of-type {
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
   }
   .banner .title-grid {
     grid-template-columns: 1fr;
     padding: 15px;
+  }
+  .banner .title-grid .title-grid-item {
+    padding: 0 15px 15px 15px;
   }
   .article .article-grid {
     grid-template-columns: 1fr;
