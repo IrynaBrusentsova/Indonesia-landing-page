@@ -554,6 +554,23 @@ header .header-grid-wrapper .header-grid-menu .header-grid-nav-menu a :focus {
   transform: translate(-50%, -50%);
 }
 
+.btnUp {
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  z-index: 2;
+  background: #DD2242;
+  padding: 20px;
+  border-radius: 50%;
+  border: solid #FFFFFF 1px;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+.btn-up_hide {
+  display: none;
+}
+
 footer {
   background-color: #010A20;
   min-height: 140px;

@@ -820,6 +820,21 @@ header {
 
 }
 
+.btnUp {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    z-index: 2;
+    background:$colorMainRed;
+    padding: 20px;
+    border-radius: 50%;
+    border: solid #FFFFFF 1px;
+    color:#FFFFFF;
+    font-size: 16px;
+}
+.btn-up_hide {
+    display: none;
+  }
 
 footer {
     background-color: $colorText2;
@@ -965,10 +980,12 @@ footer {
                         width: 100%;
                         height: 3px;
                         background-color: #FFFFFF;
-                        position: relative;
-                           
-                    }        
+                         position: relative;          
+                    }   
+                  
            }
+
+
           .active {
             .header-grid-nav-menu {
                display: block;                                
