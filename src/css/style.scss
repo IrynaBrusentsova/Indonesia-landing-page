@@ -646,80 +646,6 @@ header {
     }
 }
 
-// .gallery-grid{
-//     display: grid;
-//     grid-template-columns: repeat(3, 1fr);
-//     // grid-template-rows: 370px 370px;
-//     grid-gap: 20px;
-//     text-align: center;
-//     color: red;
-
-
-
-//     .gallery-grid-item-item1{
-//         background-image: url('../img/photo gallery/Image 06.png');
-//         height: 530px;
-//         width: 100%;  
-//         border-radius: 10px;
-//         background-repeat: no-repeat;
-//         background-size: cover;  
-
-//     }
-
-//     .gallery-grid-item-item2 {
-//         background-image: url('../img/photo gallery/Image 05.png');
-//         height: 210px;
-//         width: 100%;  
-//         border-radius: 10px;
-//         background-repeat: no-repeat;
-//         background-size: cover; 
-
-//     }
-
-//     .gallery-grid-item-item3{
-//         background-image: url('../img/photo gallery/Image 02.png');
-//         height: 370px;
-//         width: 100%;
-//         border-radius: 10px;
-//         background-repeat: no-repeat;
-//         background-size: cover; 
-
-//     }
-//     .gallery-grid-item-item4{
-//         background-image: url('../img/photo gallery/Image 04.png');
-//         height: 210px;
-//         width: 100%;  
-//         border-radius: 10px;
-//         background-repeat: no-repeat;
-//         background-size: cover; 
-//     }
-//     .gallery-grid-item-item5{
-//         background-image: url('../img/photo gallery/Image 03.png');
-//         height: 530px;
-//         width: 100%;  
-//         border-radius: 10px;
-//         background-repeat: no-repeat;
-//         background-size: cover;
-//     }
-
-//     .gallery-grid-item-item6{ 
-//         background-image: url('../img/photo gallery/Image 01.png');
-//         height: 370px;
-//         width: 100%;
-//         border-radius: 10px;
-//         background-repeat: no-repeat;
-//         background-size: cover;  
-
-//     }   
-
-
-
-
-
-
-// }
-
-
 
 .getting {
     min-height: 1500px;
@@ -1023,7 +949,7 @@ footer {
     }
 
     .getting {
-        min-height: 2100px;
+        min-height: 1800px;
     }
 }
 
@@ -1178,8 +1104,9 @@ footer {
     }
 
     .getting {
-        min-height: 2200px;
+        min-height: 1900px;
         text-align: center;
+        padding: 100px 0;
 
         .getting-main {
             text-align: center;
@@ -1314,7 +1241,7 @@ footer {
         }
     }
     .getting {
-        min-height: 2400px;
+        min-height: 2000px;
         .getting-description{
             p{
                 margin:20px 0;

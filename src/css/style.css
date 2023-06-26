@@ -707,7 +707,7 @@ footer .footer-grid-icon-menu li a i:hover {
     justify-content: center;
   }
   .getting {
-    min-height: 2100px;
+    min-height: 1800px;
   }
 }
 @media (max-width: 768px) {
@@ -807,8 +807,9 @@ footer .footer-grid-icon-menu li a i:hover {
     height: 370px;
   }
   .getting {
-    min-height: 2200px;
+    min-height: 1900px;
     text-align: center;
+    padding: 100px 0;
   }
   .getting .getting-main {
     text-align: center;
@@ -908,7 +909,7 @@ footer .footer-grid-icon-menu li a i:hover {
     margin: 20px 0;
   }
   .getting {
-    min-height: 2400px;
+    min-height: 2000px;
   }
   .getting .getting-description p {
     margin: 20px 0;
