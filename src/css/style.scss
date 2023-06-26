@@ -690,28 +690,7 @@ header {
         }
 
 
-        // ol {
-        //     list-style: none;
-        //     counter-reset: my-awesome-counter;
-
-        //   }
-        //   li {
-        //     counter-increment: my-awesome-counter;
-        //     margin: 0.25rem;
-
-        //   }
-        //   li::before {
-        //     content: counter(my-awesome-counter);
-        //     background: #DD2242;
-        //     width: 2rem;
-        //     height: 2rem;
-        //     border-radius: 50%;
-        //     display: inline-block;
-        //     line-height: 2rem;
-        //     color: white;
-        //     text-align: center;
-        //     margin-right: 2rem;
-        //   }
+   
 
 
         .getting-main-grid {
@@ -914,12 +893,10 @@ footer {
 
 
           .active {
-            .header-grid-nav-menu {
-               display: block;                                
-            }  
-            
-         } 
-        
+                .header-grid-nav-menu {
+                  display: block;                         
+                }   
+            }
         }
     }
 
@@ -957,7 +934,7 @@ footer {
     body.lock{
         overflow: hidden;
     }
-  
+    
     .banner {
         h1 {
             font-size: 58px;
