@@ -214,6 +214,7 @@ header .header-grid-wrapper .header-grid-menu .header-grid-nav-menu a :focus {
 }
 .article h2 {
   font-size: 42px;
+  line-height: 62px;
 }
 
 .explore {
