@@ -1,7 +1,7 @@
 .button {
   padding: 10px 20px;
-  color: #FFFFFF;
-  background-color: #DD2242;
+  color: #ffffff;
+  background-color: #dd2242;
   border-radius: 211px;
   border: none;
   font-size: 20px;
@@ -25,9 +25,9 @@ footer, .getting .getting-main ol li p:nth-child(2), .gallery .gallery-descripti
 }
 
 body {
-  background-color: #F4F3FF;
+  background-color: #f4f3ff;
   font-family: DM Sans, sans-serif;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0;
   scroll-behavior: smooth;
 }
@@ -48,11 +48,11 @@ header .header-grid-wrapper {
   grid-template-columns: 15% 65% 20%;
   grid-template-rows: auto;
   align-items: center;
-  background-color: #010A20;
+  background-color: #010a20;
   opacity: 0.7;
   min-height: 140px;
   width: 100%;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: bold;
   display: grid;
   align-items: center;
@@ -86,12 +86,12 @@ header .header-grid-wrapper .header-grid-menu .header-grid-nav-menu :hover {
 }
 header .header-grid-wrapper .header-grid-menu .header-grid-nav-menu a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   transition: 1s;
 }
 header .header-grid-wrapper .header-grid-menu .header-grid-nav-menu a:hover,
 header .header-grid-wrapper .header-grid-menu .header-grid-nav-menu a :focus {
-  color: #DD2242;
+  color: #dd2242;
   transition: 1s;
 }
 
@@ -122,7 +122,7 @@ header .header-grid-wrapper .header-grid-menu .header-grid-nav-menu a :focus {
   font-weight: 900;
   line-height: 19px;
   font-family: Roboto, sans-serif;
-  color: #DD2242;
+  color: #dd2242;
   text-transform: uppercase;
 }
 .banner .title-grid .title-grid-item p:last-child {
@@ -155,9 +155,9 @@ header .header-grid-wrapper .header-grid-menu .header-grid-nav-menu a :focus {
   transition: 1.5s;
 }
 .button:hover {
-  color: #DD2242;
-  background-color: #FFFFFF;
-  border: solid 1px #DD2242;
+  color: #dd2242;
+  background-color: #ffffff;
+  border: solid 1px #dd2242;
   transition: 1.5s;
 }
 
@@ -226,7 +226,7 @@ header .header-grid-wrapper .header-grid-menu .header-grid-nav-menu a :focus {
 .explore .explore-description {
   padding-top: 100px;
   text-align: center;
-  color: #010A20;
+  color: #010a20;
   font-weight: 700;
   font-size: 50px;
   line-height: 150%;
@@ -278,7 +278,7 @@ header .header-grid-wrapper .header-grid-menu .header-grid-nav-menu a :focus {
 .explore .numbers-wrapper .numbers-grid .numbers-grid-item1 p:first-child,
 .explore .numbers-wrapper .numbers-grid .numbers-grid-item2 p:first-child,
 .explore .numbers-wrapper .numbers-grid .numbers-grid-item3 p:first-child {
-  color: #DD2242;
+  color: #dd2242;
   font-size: 42px;
 }
 .explore .numbers-wrapper .numbers-description {
@@ -337,7 +337,7 @@ header .header-grid-wrapper .header-grid-menu .header-grid-nav-menu a :focus {
 }
 .map .map-description p {
   font-weight: 400;
-  color: #6F7787;
+  color: #6f7787;
   margin: 50px 0;
 }
 .map .map-description .button {
@@ -346,7 +346,7 @@ header .header-grid-wrapper .header-grid-menu .header-grid-nav-menu a :focus {
 
 .video {
   min-height: 1476px;
-  background-color: #010A20;
+  background-color: #010a20;
   text-align: center;
   align-items: center;
 }
@@ -374,7 +374,7 @@ header .header-grid-wrapper .header-grid-menu .header-grid-nav-menu a :focus {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-color: #E93A7D;
+  background-color: #e93a7d;
   position: relative;
   position: absolute;
   top: 50%;
@@ -435,10 +435,10 @@ header .header-grid-wrapper .header-grid-menu .header-grid-nav-menu a :focus {
   font-weight: 700;
   font-size: 60px;
   line-height: 150%;
-  color: #010A20;
+  color: #010a20;
 }
 .gallery .gallery-description p:last-child {
-  color: #6F7787;
+  color: #6f7787;
 }
 .gallery .gallery-grid {
   display: grid;
@@ -498,12 +498,12 @@ header .header-grid-wrapper .header-grid-menu .header-grid-nav-menu a :focus {
 .getting {
   min-height: 1500px;
   padding: 30px 0;
-  background-color: #DCE8F2;
-  color: #010A20;
+  background-color: #dce8f2;
+  color: #010a20;
   position: relative;
 }
 .getting .getting-description {
-  color: #010A20;
+  color: #010a20;
   font-weight: 700;
   font-size: 60px;
   line-height: 150%;
@@ -521,7 +521,7 @@ header .header-grid-wrapper .header-grid-menu .header-grid-nav-menu a :focus {
   line-height: 41px;
 }
 .getting .getting-main ol li p:nth-child(2) {
-  color: #6F7787;
+  color: #6f7787;
 }
 .getting .getting-main ol li {
   margin-bottom: 100px;
@@ -560,11 +560,11 @@ header .header-grid-wrapper .header-grid-menu .header-grid-nav-menu a :focus {
   bottom: 10px;
   right: 15px;
   z-index: 2;
-  background: #DD2242;
+  background: #dd2242;
   padding: 20px;
   border-radius: 50%;
-  border: solid #FFFFFF 1px;
-  color: #FFFFFF;
+  border: solid #ffffff 1px;
+  color: #ffffff;
   font-size: 16px;
 }
 
@@ -573,9 +573,9 @@ header .header-grid-wrapper .header-grid-menu .header-grid-nav-menu a :focus {
 }
 
 footer {
-  background-color: #010A20;
+  background-color: #010a20;
   min-height: 140px;
-  color: #FFFFFF;
+  color: #ffffff;
   display: grid;
   align-items: center;
 }
@@ -612,12 +612,12 @@ footer .footer-grid-menu .footer-grid-nav-menu {
 }
 footer .footer-grid-menu .footer-grid-nav-menu a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   transition: 1s;
 }
 footer .footer-grid-menu .footer-grid-nav-menu a:hover,
 footer .footer-grid-menu .footer-grid-nav-menu a :focus {
-  color: #DD2242;
+  color: #dd2242;
   transition: 1s;
 }
 footer .footer-grid-icon {
@@ -639,12 +639,12 @@ footer .footer-grid-icon-menu {
   transition: 1s;
 }
 footer .footer-grid-icon-menu i {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 footer .footer-grid-icon-menu li a i:hover {
   transform: scale(2);
   transition: 1s;
-  color: #DD2242;
+  color: #dd2242;
   transition: 1s;
 }
 
@@ -654,21 +654,19 @@ footer .footer-grid-icon-menu li a i:hover {
     align-items: center;
     opacity: 1;
     grid-template-columns: 1fr;
-    grid-row: 40px;
+    text-align: center;
   }
   header .header-grid-wrapper .header-grid-logo {
-    padding: 0;
     display: none;
   }
   header .header-grid-wrapper .header-grid-menu .header-grid-nav-menu {
     grid-template-columns: 1fr;
-    grid-row-gap: 40px;
     text-align: center;
-    margin: 30px 0;
+    margin: 15px 0;
     display: none;
   }
   header .header-grid-wrapper .header-grid-menu li {
-    margin: 30px 0;
+    margin: 15px 0;
   }
   header .header-grid-wrapper .header-humburger {
     display: grid;
@@ -679,7 +677,7 @@ footer .footer-grid-icon-menu li a i:hover {
   header .header-grid-wrapper .header-humburger span {
     width: 100%;
     height: 3px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     position: relative;
   }
   header .header-grid-wrapper .active .header-grid-nav-menu {
@@ -773,7 +771,7 @@ footer .footer-grid-icon-menu li a i:hover {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #E0E0E0;
+    color: #e0e0e0;
   }
   .explore .numbers-grid .numbers-grid-item1 p:first-child,
   .explore .numbers-grid .numbers-grid-item2 p:first-child,
